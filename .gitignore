@@ -39,3 +39,22 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+!.env.example
+
+# datos locales (PGlite y fotos de desarrollo)
+/.data/
+
+# datos reales de participantes (nombres y números de ingreso): nunca al repositorio
+*.xlsx
+*.xls
+*.csv
+
+# scripts temporales
+scripts/tmp-*.ts
+
+# playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
